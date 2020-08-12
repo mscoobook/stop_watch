@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background: #000000;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 0px;
+  color: #fff;
+}
+
+
+.container {
+  margin: 20px auto;
+  width: 270px;
+  background: gray;
+  padding: 20px;
+  text-align: center;
+}
+
+#timer {
+  background: #ddd;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  background: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.6;
+}
